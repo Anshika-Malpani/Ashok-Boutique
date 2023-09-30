@@ -135,7 +135,7 @@ var tl3 = gsap.timeline({
         scroller: ".main",
         // markers:true,
         start: "top -140%",
-        end: "top -190%",
+        end: "top -140%",
         scrub: 4
     }
 })

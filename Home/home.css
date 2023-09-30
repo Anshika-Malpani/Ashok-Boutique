@@ -50,7 +50,7 @@ body {
 
 
 #logo {
-    width: 10vw;
+    width: 16vw;
     height: 100%;
     /* margin: 0 2vw; */
     margin-left: 2vw;
@@ -90,7 +90,7 @@ body {
 }
 
 .nav-right {
-    width: 14vw;
+    width: 16vw;
     height: 7vh;
     background-color: #574848;
     margin-right: 2vw;
@@ -98,6 +98,11 @@ body {
     align-items: center;
     border-radius: 5px;
     justify-content: center;
+}
+
+.hamburger {
+    font-size: 8vw;
+    display: none;
 }
 
 .btn-lg {
@@ -388,7 +393,7 @@ h5 {
 .page4 {
     width: 100%;
     height: 100vh;
-    /* background-color: #574848; */
+    background-color: white;
 }
 
 .page4-head {
@@ -481,8 +486,8 @@ h5 {
     /* padding-top: 4vw; */
     margin: 0 5vw;
 }
-.box1 p
-{
+
+.box1 p {
     font-size: 1.3vw;
     padding: 1.3vw 2.5vw;
     text-align: start;
@@ -503,8 +508,7 @@ h5 {
     margin-top: 3.4vw;
 }
 
-.box2 h3
-{
+.box2 h3 {
     font-size: 1.7vw;
     font-family: 'Mukta', sans-serif;
     font-weight: 600;
@@ -512,10 +516,10 @@ h5 {
     text-transform: uppercase;
 }
 
-.box2 h4{
+.box2 h4 {
     font-family: 'Mukta', sans-serif;
     font-weight: 400;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .box3 {
@@ -531,7 +535,7 @@ h5 {
     border-right: 1px solid #c7b0b0;
 }
 
-.box3 h3{
+.box3 h3 {
     font-size: 1.7vw;
     font-family: 'Mukta', sans-serif;
     font-weight: 600;
@@ -539,10 +543,10 @@ h5 {
     text-transform: uppercase;
 }
 
-.box3 h4{
+.box3 h4 {
     font-family: 'Mukta', sans-serif;
     font-weight: 400;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .box4 {
@@ -556,10 +560,10 @@ h5 {
     /* margin-left: 3.2vw; */
     margin-top: 3.8vw;
     color: white;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
-.box4 h3{
+.box4 h3 {
     font-size: 1.7vw;
     font-family: 'Mukta', sans-serif;
     font-weight: 600;
@@ -567,14 +571,13 @@ h5 {
     text-transform: uppercase;
 }
 
-.box4 h4{
+.box4 h4 {
     font-family: 'Mukta', sans-serif;
-    font-weight: 400;  
-    cursor: pointer; 
+    font-weight: 400;
+    cursor: pointer;
 }
 
-.copyright
-{
+.copyright {
     width: 100%;
     height: 10vh;
     background-color: #af9191;
@@ -585,11 +588,10 @@ h5 {
     align-items: center;
 }
 
-.copyright h3
-{
+.copyright h3 {
     font-size: 1.2vw;
     font-family: 'Mukta', sans-serif;
     font-weight: 500;
-    text-align: center;  
+    text-align: center;
 }
 
