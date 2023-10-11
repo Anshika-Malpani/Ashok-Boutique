@@ -1,21 +1,51 @@
 @media(max-width:1200px) {
     .navbar {
         width: 100%;
-        /* height: 30vh; */
+        height: auto;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo {
+        width: 50%;
+        position: relative;
+       right: 25%;
+    }
+
+    #logo img {
+        max-width: 100%;
+        height: auto;
     }
 
     .list {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        background-color: transparent;
     }
-
-    .nav-right {
-        display: none;
+    .nav-right{
+        width: 30vw;
+        height: 6vh;
+        margin: 2.5vw;
     }
 
     .hamburger {
-        display: inline-block;
-        margin-right: 10vw   ;
+        display: block;
     }
+
+    .h-nav {
+        width: 100%;
+        height: 8vh;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+
 
     .hero {
         width: 100%;
@@ -24,13 +54,15 @@
         flex-direction: column-reverse;
         justify-content: flex-end;
         align-items: center;
-        
+
     }
+
     .right {
         width: 100%;
         height: 55vh;
         padding-top: 16vw;
     }
+
     .left {
         width: 100%;
         height: 100%;
@@ -39,7 +71,7 @@
         align-items: center;
         padding: 0vw 0px;
     }
-    
+
     .content {
         margin-left: 0vw;
         margin-top: 5vw;
@@ -47,14 +79,14 @@
         flex-direction: column;
         align-items: center;
     }
-    
+
     .content h1 {
         color: #574848;
         font-family: 'Alice', serif;
         font-size: 11vw;
         margin: 12px;
     }
-    
+
     .content h3 {
         color: #706b6b;
         font-family: 'Roboto', sans-serif;
@@ -63,18 +95,20 @@
         line-height: 113%;
         margin: 8px;
     }
-    .btn{
+
+    .btn {
         padding: 18px;
         margin-right: 5vw;
         margin-top: 2.5vw;
     }
 
     h5 {
-       
+
         font-size: 5.5vw;
         bottom: 8%;
 
     }
+
     .fimages {
         flex-direction: column-reverse;
         /* background-color: #574848; */
@@ -85,7 +119,7 @@
         width: 100%;
         height: 70%;
         justify-content: center;
-        
+
     }
 
     .images {
@@ -93,20 +127,21 @@
         height: 100%;
         margin-top: 26vw;
     }
+
     .fleft {
         width: 100%;
         height: 30%;
         /* border: 2px solid black; */
         margin-top: 15vw;
-      
-      
+
+
     }
 
     .fleftelem {
         width: 100%;
         height: 100%;
         margin-top: 10vw;
-        
+
     }
 
     .fleftelem h3 {
@@ -122,9 +157,8 @@
         color: #574848;
     }
 
-    .review
-    {
-        background-color:"#F7F8FC";
+    .review {
+        background-color: "#F7F8FC";
         height: 100vh;
     }
 
@@ -138,11 +172,12 @@
         height: 90vh;
         /* background-color: #7c7070; */
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        /* flex-direction: column; */
+        /* flex-wrap: wrap; */
         /* align-items: center; */
         justify-content: center;
-        
+        overflow-y: auto;
+
         /* margin-left: 1.2vw; */
     }
 
@@ -160,7 +195,7 @@
         width: 100%;
         height: 50%;
         font-size: 5.5vw
-        /* margin-top: 0.6vw; */
+            /* margin-top: 0.6vw; */
     }
 
     .cust-des {
@@ -190,8 +225,7 @@
         align-items: center;
     }
 
-    .page4-head .btn
-    {
+    .page4-head .btn {
         padding: 0px 10px;
         margin-right: 5vw;
         margin-top: 0vw;
@@ -211,13 +245,15 @@
     .describe h3 {
         font-size: 8vw;
         margin-top: 5vw;
+        text-align: center;
+        padding: 0 5vw;
     }
 
     .describe h6 {
         font-size: 4.8vw;
         color: #706b6b;
         font-family: 'Roboto', sans-serif;
-        margin-top: 0.5vw;
+        margin-top: 1.5vw;
     }
 
     .achieve {
@@ -230,7 +266,7 @@
         justify-content: space-around;
         align-items: center;
         margin-top: 7vw;
-        
+
     }
 
     .achieve h4 {
@@ -238,12 +274,12 @@
         font-size: 5.5vw;
         font-weight: 700;
         color: #706b6b;
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
     .footer {
         width: 100%;
-        height: 60vh;
+        height: 62vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -253,15 +289,14 @@
     .box1 {
         width: 90%;
         height: 85%;
-       
+
     }
 
     .box1 p {
         font-size: 3.3vw;
     }
 
-    .nav-items
-    {
+    .nav-items {
         width: 100%;
         height: 100%;
         display: flex;
@@ -299,5 +334,5 @@
         font-weight: 600;
         padding: 0 10vw;
     }
-    
+
 }

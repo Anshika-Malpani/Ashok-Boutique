@@ -48,7 +48,45 @@ init();
     //     delay:0.4,
     //     duration:1.5
     // })
+    hamburger = document.querySelector('.hamburger');
+    navbar = document.querySelector('.navbar');
+    list = document.querySelector('.list');
+    login = document.querySelector('.login');
+    
+    hamburger.addEventListener('click', ()=> {
+        navbar.classList.toggle("h-nav");
+        list.classList.toggle("v-class");
+        login.classList.toggle("v-class");
+        gsap.from(".h-nav",{
+            opacity:0,
+            duration:1,
+            stagger:0.1,
+        })
+        
+    })
 
+// var items=document.querySelectorAll(".list li a")
+//     items.forEach(function(item){
+//         var nav=item.textContent;
+//         console.log(item)
+//         item.addEventListener('click',()=>{
+//             nav.style.display="none";
+//         })
+//     })
+
+var currentUrl = window.location.href;
+
+
+// Loop through each navigation link and check if it matches the current URL
+var navLinks = document.querySelectorAll('.list a');
+navLinks.forEach(function(link) {
+  if (link.href === currentUrl) {
+    link.classList.add('active');
+  }
+});
+    
+
+    
 
 function animations(){
     gsap.from("#logo,.list li ,.nav-right", {
@@ -64,7 +102,7 @@ function animations(){
         ease: Power1,
     })
     
-    gsap.from(".btn", {
+    gsap.from(".content .btn", {
         opacity: 0,
         duration: 3.5,
         ease: Power1,
@@ -92,11 +130,9 @@ function animations(){
             trigger: ".fleftelem",
             scroller: ".main",
             // markers:true,
-            // start:"top 90%",
-            end:"top 70%",
-            scrub:2
-        }
-        
+            // start:"top 80%",
+            end:"top 60%"
+        } 
     })
     gsap.from(".images-list", {
         scale:0,
@@ -144,6 +180,35 @@ tl3.to(".main",{
     backgroundColor:"#F7F8FC",
     // backgroundImage:"linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 84%)"
 })
+
+gsap.from(".owner ,.describe h3,.describe h6",{
+    opacity:1,
+    duration:1,
+    scale:0,
+    stagger:0.5,
+    scrollTrigger:{
+        trigger:".owner",
+        scroller:".main" ,
+        // markers: true,
+        start:"top 90%",
+        end:"top 0%",
+    }
+})
+
+gsap.from(".achieve h4",{
+    y:100,
+    duration:1,
+    stagger:0.3,
+    scrollTrigger:{
+        trigger:".owner",
+        scroller:".main" ,
+        // markers: true,
+        start:"bottom 60%",
+        end:"top 0%",
+
+    }
+})
+
 
 
 

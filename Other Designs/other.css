@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Mooli&family=Mukta:wght@300&family=Roboto:wght@100&family=Rufina&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#loader {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loader h1 {
+    font-size: 100px;
+    font-family: monument;
+    font-weight: 100;
+}
+
+#loader img {
+    width: 20vw;
+}
+
+.navbar {
+    width: 100vw;
+    height: 10vh;
+    box-shadow: rgba(157, 157, 157, 0.2) 2px 4px 10px;
+    position: fixed;
+    z-index: 90;
+    background-color: #fff;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* margin: 0 20px; */
+}
+
+#logo {
+    width: 16vw;
+    height: 100%;
+    /* margin: 0 2vw; */
+    margin-left: 2vw;
+}
+
+#logo img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 3px 0;
+    
+}
+
+.list {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 2.2vw; */
+}
+
+.list li {
+    list-style: none;
+}
+
+.list li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    color: #574848;
+}
+
+.list li a:hover {
+    border-bottom: 1px solid #c7b6b6;
+    color: #af9191;
+}
+
+.list a.active {
+    color: #af9191;
+     /* Change this to your desired color */
+  }
+
+.nav-right {
+    width: 16vw;
+    height: 7vh;
+    background-color: #574848;
+    margin-right: 2vw;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.hamburger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 2.5vw;
+    font-size: 9vw;
+    cursor: pointer;
+}
+
+.btn-lg {
+
+    margin: 8px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    border: none;
+    background-color: #574848;
+    color: white;
+    cursor: pointer;
+}
+
+
+.nav-right i {
+    color: white;
+    font-size: 20px;
+}
+
+.design-sec {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #af9191; */
+    padding-top: 5vw;
+    position: relative;
+}
+
+.design-sec h1 {
+    text-align: center;
+    color: #574848;
+    font-family: 'Alice', serif;
+    padding-top: 2vw;
+    font-size: 3vw;
+}
+
+.img-section {
+    width: 95%;
+    /* background-color: #574848; */
+    margin: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* padding-top: 1vw; */
+}
+
+.box {
+    width: 19vw;
+    height: 60vh;
+    background-color: white;
+    margin-top: 2vw;
+
+    box-shadow: rgba(157, 157, 157, 0.2) 2px 4px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 2vw 2vw; */
+    overflow: hidden;
+}
+
+.box img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    /* border-radius: 10px; */
+
+}
+
+.box h3 {
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-family: 'Mukta', sans-serif;
+    color: #574848;
+    font-weight: 700;
+    margin-top: 0.3vw;
+}
+
+.box h5 {
+    /* font-size: 1.5vw; */
+    font-family: 'Mukta', sans-serif;
+    color: #574848;
+    line-height: 100%;
+    padding-bottom: 1vw;
+}
+
+.fullimg{
+    width: 100%;
+    height: 100vh;
+    /* display: none; */
+    background-color: #574848;
+    position: relative;
+    top: 0;
+    z-index: 9;
+}
+
+.fullscrn{
+    width: 50%;
+    height: 90vh;
+    background-color: #af9191;   
+    position: absolute;
+    margin: 6vw auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.footer {
+    width: 100%;
+    height: 45vh;
+    background-color: #af9191;
+    display: flex;
+    gap: 10px;
+    margin-top: 2vw;
+}
+
+.box1 {
+    width: 30%;
+    height: 100%;
+    /* background-color: #af9191; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 3.2vw;
+    margin-top: 3.8vw;
+    color: white;
+}
+
+.box1 img {
+    max-width: 70%;
+    /* height: 10vw; */
+    object-fit: contain;
+    /* padding-top: 4vw; */
+    margin: 0 5vw;
+}
+
+.box1 p {
+    font-size: 1.3vw;
+    padding: 1.3vw 2.5vw;
+    text-align: start;
+    font-family: 'Mukta', sans-serif;
+    line-height: 115%;
+    margin-left: 1.7vw;
+}
+
+.box2 {
+    width: 25%;
+    height: 100%;
+    /* background-color: #af9191; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    color: white;
+    margin-top: 3.4vw;
+}
+
+.box2 h3 {
+    font-size: 1.7vw;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.box2 h4 {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.box3 {
+    width: 25%;
+    height: 75%;
+    /* background-color: #af9191; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    color: white;
+    margin-top: 3.4vw;
+    border-right: 1px solid #c7b0b0;
+}
+
+.box3 h3 {
+    font-size: 1.7vw;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.box3 h4 {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.box4 {
+    width: 30%;
+    height: 100%;
+    /* background-color: #af9191; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-left: 3.2vw; */
+    margin-top: 3.8vw;
+    color: white;
+    cursor: pointer;
+}
+
+.box4 h3 {
+    font-size: 1.7vw;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.box4 h4 {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.copyright {
+    width: 100%;
+    height: 10vh;
+    background-color: #af9191;
+    color: white;
+    /* border-top: 1px solid  #c7b0b0;   */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright h3 {
+    font-size: 1.2vw;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
