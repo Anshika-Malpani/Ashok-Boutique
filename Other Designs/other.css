@@ -204,26 +204,51 @@ body {
     padding-bottom: 1vw;
 }
 
-.fullimg{
-    width: 100%;
-    height: 100vh;
-    /* display: none; */
-    background-color: #574848;
-    position: relative;
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 20px;
+    left: 0;
     top: 0;
-    z-index: 9;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    backdrop-filter: blur(20px); /* Adjust the blur radius as needed */
+    margin-top: 3.5vw;
 }
 
-.fullscrn{
-    width: 50%;
-    height: 90vh;
-    background-color: #af9191;   
+.model-content {
+    display: block;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+#expandedImage{
+    display: block;
+    margin: 1vw auto;
+    min-width: 20vw;
+    height: 85vh;
+    object-fit: cover;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.close-button {
     position: absolute;
-    margin: 6vw auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
+    top: 2vw;
+    right: 3vw;
+    color: #000000;
+    font-size: 3vw;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Add styles for thumbnails, such as width, height, and hover effects */
+.thumbnail {
+    /* Define styles for your thumbnail images */
+    width: 100%;
 }
 
 .footer {

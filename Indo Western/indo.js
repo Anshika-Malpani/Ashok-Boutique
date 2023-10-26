@@ -328,6 +328,18 @@ hamburger.addEventListener('click', ()=> {
     })
     
 })
+function displayImage(src) {
+    var modal = document.getElementById('imageModal');
+    var img = document.getElementById('expandedImage');
+    img.src = src;
+    modal.style.display = 'block';
+}
+
+// Function to close the modal
+function closeModal() {
+    var modal = document.getElementById('imageModal');
+    modal.style.display = 'none';
+}
 
 var currentUrl = window.location.href;
 
@@ -351,6 +363,13 @@ function createDesignsBox(indos) {
       <h3 class="title">${indos.des}</h3>
       <h5 class="price">${indos.price}</h5>
     `;
+    for (let i = 0; i <indo.length; i++) {
+        box.addEventListener('click',(dets)=>{
+           var targetImg=dets.target.getAttribute('src')
+           displayImage(targetImg)
+        })
+        
+    }
     return box;
   }
   

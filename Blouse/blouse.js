@@ -769,6 +769,31 @@ hamburger.addEventListener('click', ()=> {
     
 })
 
+// Function to display the modal and full-size image
+function displayImage(src) {
+    var modal = document.getElementById('imageModal');
+    var img = document.getElementById('expandedImage');
+    img.src = src;
+    modal.style.display = 'block';
+}
+
+// Function to close the modal
+function closeModal() {
+    var modal = document.getElementById('imageModal');
+    modal.style.display = 'none';
+}
+
+// Add click event listeners to all thumbnail images
+
+
+// blouses.forEach(function(elem,idx){
+//     console.log(elem)
+//     .addEventListener('click',()=>{
+//         displayImage(elem.image);
+//     })
+// })
+
+
 var currentUrl = window.location.href;
 
 
@@ -787,10 +812,17 @@ function createDesignBox(blouse) {
     const box = document.createElement("div");
     box.classList.add('box');
     box.innerHTML = `
-      <img class="designs" src="${blouse.image}" alt="">
+      <img class="designs thumbnail" src="${blouse.image}" alt="">
       <h3 class="title">${blouse.des}</h3>
       <h5 class="price">${blouse.price}</h5>
     `;
+    for (let i = 0; i < blouses.length; i++) {
+        box.addEventListener('click',(dets)=>{
+           var targetImg=dets.target.getAttribute('src')
+           displayImage(targetImg)
+        })
+        
+    }
     return box;
   }
   

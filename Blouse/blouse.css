@@ -64,12 +64,12 @@ body {
     max-width: 100%;
     height: auto;
     object-fit: cover;
-    padding: 3px 0;
+    padding: 6px 0;
     
 }
 
 .list {
-    width: 100%;
+    width: 100vw;
     height: 10vh;
     display: flex;
     gap: 20px;
@@ -99,10 +99,13 @@ body {
     color: #af9191; /* Change this to your desired color */
   }
 
-
+.login{
+    display: flex;
+    gap: 5px;
+}
 
 .nav-right {
-    width: 16vw;
+    width: 10vw;
     height: 7vh;
     background-color: #574848;
     margin-right: 2vw;
@@ -125,15 +128,19 @@ body {
 
     margin: 8px;
     font-weight: 600;
-    font-size: 1.125rem;
+    font-size: 1.5vw;
     line-height: 1.75rem;
     border: none;
     background-color: #574848;
     color: white;
     cursor: pointer;
+    font-family: 'Alice', serif;
 }
 
-
+.footer a{
+    color:white ;
+    text-decoration: none;
+}
 .nav-right i {
     color: white;
     font-size: 20px;
@@ -206,27 +213,54 @@ body {
     padding-bottom: 1vw;
 }
 
-.fullimg{
-    width: 100%;
-    height: 100vh;
-    /* display: none; */
-    background-color: #574848;
-    position: relative;
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 20px;
+    left: 0;
     top: 0;
-    z-index: 9;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    backdrop-filter: blur(20px); /* Adjust the blur radius as needed */
+    margin-top: 3.5vw;
 }
 
-.fullscrn{
-    width: 50%;
-    height: 90vh;
-    background-color: #af9191;   
-    position: absolute;
-    margin: 6vw auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
+.model-content {
+    display: block;
+    width: 90%;
+    height: 90%;
+    margin: auto;
 }
+
+#expandedImage{
+    display: block;
+    margin: 1vw auto;
+    min-width: 20vw;
+    height: 85vh;
+    object-fit: cover;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.close-button {
+    position: absolute;
+    top: 2vw;
+    right: 3vw;
+    color: #000000;
+    font-size: 3vw;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Add styles for thumbnails, such as width, height, and hover effects */
+.thumbnail {
+    /* Define styles for your thumbnail images */
+    width: 100%;
+}
+
 
 .footer {
     width: 100%;

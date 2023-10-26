@@ -151,6 +151,36 @@ var kurties=[
     }
 ]
 
+hamburger = document.querySelector('.hamburger');
+navbar = document.querySelector('.navbar');
+list = document.querySelector('.list');
+login = document.querySelector('.login');
+
+hamburger.addEventListener('click', ()=> {
+    navbar.classList.toggle("h-nav");
+    list.classList.toggle("v-class");
+    login.classList.toggle("v-class");
+    gsap.from(".h-nav",{
+        opacity:0,
+        duration:1,
+        stagger:0.1,
+    })
+    
+})
+
+function displayImage(src) {
+    var modal = document.getElementById('imageModal');
+    var img = document.getElementById('expandedImage');
+    img.src = src;
+    modal.style.display = 'block';
+}
+
+// Function to close the modal
+function closeModal() {
+    var modal = document.getElementById('imageModal');
+    modal.style.display = 'none';
+}
+
 var currentUrl = window.location.href;
 
 
@@ -173,6 +203,13 @@ function createDesignBox(kurti) {
       <h3 class="title">${kurti.des}</h3>
       <h5 class="price">${kurti.price}</h5>
     `;
+    for (let i = 0; i < kurties.length; i++) {
+        box.addEventListener('click',(dets)=>{
+           var targetImg=dets.target.getAttribute('src')
+           displayImage(targetImg)
+        })
+        
+    }
     return box;
   }
   

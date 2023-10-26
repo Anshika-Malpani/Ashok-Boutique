@@ -125,12 +125,13 @@ body {
 
     margin: 8px;
     font-weight: 600;
-    font-size: 1.125rem;
+    font-size: 1.5vw;
     line-height: 1.75rem;
     border: none;
     background-color: #574848;
     color: white;
     cursor: pointer;
+    font-family: 'Alice', serif;
 }
 
 
@@ -361,10 +362,6 @@ h5 {
     scale: 0.9;
 }
 
-.box:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in-out;
-}
 
 .rev-content {
     width: 100%;
@@ -596,6 +593,10 @@ h5 {
     font-family: 'Mukta', sans-serif;
     font-weight: 400;
     cursor: pointer;
+}
+.footer a{
+    color:white ;
+    text-decoration: none;
 }
 
 .copyright {
