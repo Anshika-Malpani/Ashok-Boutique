@@ -123,6 +123,9 @@ body {
     font-size: 9vw;
     cursor: pointer;
 }
+.nav-right a{
+    text-decoration: none;
+}
 
 .btn-lg {
 

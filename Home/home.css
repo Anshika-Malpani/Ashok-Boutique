@@ -31,6 +31,9 @@ body {
     font-weight: 100;
 }
 
+.nav-right a{
+    text-decoration: none;
+}
 #loader img {
     width: 20vw;
 }

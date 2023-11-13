@@ -142,6 +142,9 @@ body {
     color: white;
     font-size: 20px;
 }
+.nav-right a{
+    text-decoration: none;
+}
 .footer a{
     color:white ;
     text-decoration: none;

@@ -136,7 +136,9 @@ body {
     cursor: pointer;
     font-family: 'Alice', serif;
 }
-
+.nav-right a{
+    text-decoration: none;
+}
 
 .nav-right i {
     color: white;

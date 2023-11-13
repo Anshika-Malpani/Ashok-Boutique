@@ -228,6 +228,9 @@ body {
     margin-top: 3.5vw;
     z-index: 1000;
 }
+.nav-right a{
+    text-decoration: none;
+}
 
 .model-content {
     display: block;
