@@ -777,11 +777,15 @@ function displayImage(src) {
     modal.style.display = 'block';
 }
 
+var closeButton=document.querySelector(".close-button");
+closeButton.onclick=function(){
+    document.getElementById('imageModal').style.display='none'
+};
 // Function to close the modal
-function closeModal() {
-    var modal = document.getElementById('imageModal');
-    modal.style.display = 'none';
-}
+// function closeModal() {
+//     var modal = document.getElementById('imageModal');
+//     modal.style.display = 'none';
+// }
 
 // Add click event listeners to all thumbnail images
 

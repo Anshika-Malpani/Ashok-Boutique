@@ -1,0 +1,243 @@
+@media(max-width:1200px) {
+    .navbar {
+        width: 100%;
+        height: auto;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo {
+        width: 40%;
+        position: relative;
+        right: 30%;
+    }
+
+    #logo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        background-color: transparent;
+    }
+    .nav-right{
+        width: 30vw;
+        height: 6vh;
+        margin: 2.5vw;
+    }
+
+    .hamburger {
+        display: block;
+        top: 3.5vw;
+    }
+
+    .h-nav {
+        width: 100%;
+        height: 8vh;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+
+    .main {
+        width: 107%;
+        min-height: 150vh;
+    }
+
+    .hero {
+        width: 107%;
+    }
+
+    .upper::before {
+        height: 58vh;
+        width: 100%;
+        filter: blur(8px);
+    }
+
+    .content {
+        margin:auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .upper {
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .content h1 {
+        font-size: 14.5vw;
+       
+        /* line-height: 1.2em; */
+    }
+
+    .content h5 {
+        font-size: 3.6vw;
+    }
+
+    .lower {
+        width: 80%;
+        height: 100vh;
+        /* background-color: #574848; */
+        position: absolute;
+        top: 28%;
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        height:60%
+    }
+
+    .head h2 {
+        font-size: 5.5vw;
+    }
+
+    .head i {
+        font-size: 5vw;
+    }
+
+    form input {
+        font-size: 5.2vw;
+    }
+
+    #submit {
+        font-size: 5.5vw;
+    }
+
+    .right {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* align-items: center; */
+        background-color: #574848;
+    }
+
+    .contact {
+        justify-content: center;
+        /* background-color: #c7b6b6; */
+    }
+
+    .info {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact h2 {
+        font-size: 6vw;
+    }
+
+    .address, .number, .mail, .insta {
+        width: 100%;
+        height: 16%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: #c7b6b6; */
+        margin-bottom: 2vw;
+        padding: 0 1.5vw;
+    }
+
+    .info i {
+        color: white;
+        margin-left: 2vw;
+        font-size: 7.8vw;
+    }
+
+    .address a {
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 4vw;
+        text-decoration: none;
+        margin-left: 0.5vw;
+        line-height: 100%;
+    }
+
+    .mail a, .number a {
+
+        font-size: 5vw;
+      
+    }
+
+    .info span {
+        font-size: 5.0vw;
+    }
+    
+    
+
+
+    .footer {
+        width: 100%;
+        height: 62vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .box1 {
+        width: 90%;
+        height: 85%;
+
+    }
+
+    .box1 p {
+        font-size: 3.3vw;
+    }
+
+    .nav-items {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer h3 {
+        font-size: 4vw;
+        font-weight: 700;
+        text-align: justify;
+        text-transform: uppercase;
+    }
+
+    .box3 {
+        width: 100%;
+    }
+
+    .box4 {
+        width: 100%;
+    }
+
+    .copyright {
+        width: 100%;
+        height: 10vh;
+        background-color: #af9191;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright h3 {
+        font-size: 3vw;
+        font-weight: 600;
+        padding: 0 10vw;
+    }
+
+}
