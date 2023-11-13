@@ -44,8 +44,44 @@
 
     .v-class {
         opacity: 0;
+        display: none;
     }
 
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 20px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 99%;
+        overflow: auto;
+        backdrop-filter: blur(20px);
+        margin-top: 17.5vw;
+    }
+
+    #expandedImage {
+        display: block;
+        margin: 28vw auto;
+        min-width: 19vw;
+        height: 61vh;
+        object-fit: contain;
+        border: 3px solid black;
+        border-radius: 10px;
+    }   
+
+    .close-button {
+        position: absolute;
+        top: 4vw;
+        right: 5vw;
+        color: #000000;
+        font-size: 17vw;
+        font-weight: 700;
+        cursor: pointer;
+        z-index: 1000;
+        pointer-events: auto;
+    }
     .design-sec {
         /* background-color: #af9191; */
         padding-top: 20vw;

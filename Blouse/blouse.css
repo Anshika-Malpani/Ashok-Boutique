@@ -226,6 +226,7 @@ body {
     overflow: auto;
     backdrop-filter: blur(20px); /* Adjust the blur radius as needed */
     margin-top: 3.5vw;
+    z-index: 1000;
 }
 
 .model-content {
@@ -253,6 +254,8 @@ body {
     font-size: 3vw;
     font-weight: 700;
     cursor: pointer;
+    z-index: 1000;
+    pointer-events: auto;
 }
 
 /* Add styles for thumbnails, such as width, height, and hover effects */

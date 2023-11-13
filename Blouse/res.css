@@ -44,6 +44,7 @@
 
     .v-class {
         opacity: 0;
+        display: none;
     }
     .modal {
         display: none;
