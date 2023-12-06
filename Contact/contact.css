@@ -259,6 +259,7 @@ form input{
     /* justify-content: center; */
     flex-direction: column;
     /* align-items: center  ; */
+    background-color: #574848;
 }
 
 .contact{

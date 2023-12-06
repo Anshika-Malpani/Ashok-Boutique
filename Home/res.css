@@ -10,9 +10,9 @@
     }
 
     #logo {
-        width: 50%;
+        width: 43%;
         position: relative;
-       right: 25%;
+       right: 28%;
     }
 
     #logo img {
@@ -105,7 +105,7 @@
     h5 {
 
         font-size: 5.5vw;
-        bottom: 8%;
+        bottom: 14%;
 
     }
 
@@ -182,8 +182,8 @@
     }
 
     .box {
-        min-width: 100%;
-        height: 40vh;
+        min-width: 91%;
+        height: 37vh;
         background-color: #d6bfbe;
         box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1);
         border-radius: 10px;
@@ -204,6 +204,7 @@
         flex-direction: column;
         justify-content: center;
         padding: 0vw 0vw;
+        margin-top: 5vw;
     }
     .btn-lg {
         margin: 8px;
@@ -214,7 +215,7 @@
 
     .cust-des img {
         width: 20%;
-        height: 68%;
+        height: 61%;
     }
 
     .rev-title {
