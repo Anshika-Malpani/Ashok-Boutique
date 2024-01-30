@@ -228,7 +228,7 @@ body {
     height: 100%;
     overflow: auto;
     backdrop-filter: blur(20px); /* Adjust the blur radius as needed */
-    margin-top: 3.5vw;
+    margin-top: 5.5vw;
 }
 
 .model-content {
@@ -240,7 +240,7 @@ body {
 
 #expandedImage{
     display: block;
-    margin: 1vw auto;
+    margin: 0vw auto;
     min-width: 20vw;
     height: 85vh;
     object-fit: cover;

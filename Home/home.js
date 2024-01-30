@@ -84,7 +84,47 @@ navLinks.forEach(function(link) {
     link.classList.add('active');
   }
 });
+
+function isLaptopScreen() {
+    return window.innerWidth > 500; // You can adjust the breakpoint as needed
+}
     
+var elems=document.querySelector(".elems")
+var fixedimg=document.querySelector(".fixedimg")
+
+if (isLaptopScreen()) {
+elems.addEventListener("mouseenter",function(){
+    fixedimg.style.opacity="1";
+})
+elems.addEventListener("mouseleave",function(){
+    fixedimg.style.opacity="0";
+})
+
+var elem=document.querySelectorAll(".elem");
+elem.forEach(function(e){
+    e.addEventListener("mouseenter",function(){
+        var image=e.getAttribute("data-image")
+        fixedimg.style.backgroundImage=`url(${image})`
+    })
+})
+}
+else{
+    var elem=document.querySelectorAll(".elem");
+    var fixed=document.querySelectorAll(".fixedimg>img");
+    elem.forEach(function(e,i){
+       fixed.forEach(function(elements,index){
+        if(i==index){
+            var image=e.getAttribute("data-image")
+            console.log(image)
+            console.log(elements)
+            elements.src=image;
+            // elements.style.backgroundImage=`url(${image})`
+        }
+       })
+       
+    })
+}
+
 
     
 

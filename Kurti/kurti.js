@@ -2,152 +2,152 @@ var kurties=[
     {
         image:"Kurties/kurti(1).jpg",
         des:"Kurti 1",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(2).jpg",
         des:"Kurti 2",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(3).jpg",
         des:"Kurti 3",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(4).jpg",
         des:"Kurti 4",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(5).jpg",
         des:"Kurti 5",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(6).jpg",
         des:"Kurti 6",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(7).jpg",
         des:"Kurti 7",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(8).jpg",
         des:"Kurti 8",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(9).jpg",
         des:"Kurti 9",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(10).jpg",
         des:"Kurti 10",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(11).jpg",
         des:"Kurti 11",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(12).jpg",
         des:"Kurti 12",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(13).jpg",
         des:"Kurti 13",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(14).jpg",
         des:"Kurti 14",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(15).jpg",
         des:"Kurti 15",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(16).jpg",
         des:"Kurti 16",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(17).jpg",
         des:"Kurti 17",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(18).jpg",
         des:"Kurti 18",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(19).jpg",
         des:"Kurti 19",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(20).jpg",
         des:"Kurti 20",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(21).jpg",
         des:"Kurti 21",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(22).jpg",
         des:"Kurti 22",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(23).jpg",
         des:"Kurti 23",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(24).jpg",
         des:"Kurti 24",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(25).jpg",
         des:"Kurti 25",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(26).jpg",
         des:"Kurti 26",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(27).jpg",
         des:"Kurti 27",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(28).jpg",
         des:"Kurti 28",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(29).jpg",
         des:"Kurti 29",
-        price:"Rs.500"
+       
     },
     {
         image:"Kurties/kurti(30).jpg",
         des:"Kurti 30",
-        price:"Rs.500"
+       
     }
 ]
 
@@ -201,7 +201,6 @@ function createDesignBox(kurti) {
     box.innerHTML = `
       <img class="designs" src="${kurti.image}" alt="">
       <h3 class="title">${kurti.des}</h3>
-      <h5 class="price">${kurti.price}</h5>
     `;
     for (let i = 0; i < kurties.length; i++) {
         box.addEventListener('click',(dets)=>{

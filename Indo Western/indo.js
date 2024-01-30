@@ -2,312 +2,312 @@ var indo=[
 {
     image:"Indo Western Designs/indo(1).jpg",
     des:"Indo 1",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(2).jpg",
     des:"Indo 2",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(3).jpg",
     des:"Indo 3",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(4).jpg",
     des:"Indo 4",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(5).jpg",
     des:"Indo 5",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(6).jpg",
     des:"Indo 6",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(7).jpg",
     des:"Indo 7",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(8).jpg",
     des:"Indo 8",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(9).jpg",
     des:"Indo 9",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(10).jpg",
     des:"Indo 10",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(11).jpg",
     des:"Indo 11",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(12).jpg",
     des:"Indo 12",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(13).jpg",
     des:"Indo 13",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(14).jpg",
     des:"Indo 14",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(15).jpg",
     des:"Indo 15",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(16).jpg",
     des:"Indo 16",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(17).jpg",
     des:"Indo 17",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(18).jpg",
     des:"Indo 18",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(19).jpg",
     des:"Indo 19",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(20).jpg",
     des:"Indo 20",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(21).jpg",
     des:"Indo 21",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(22).jpg",
     des:"Indo 22",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(23).jpg",
     des:"Indo 23",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(24).jpg",
     des:"Indo 24",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(25).jpg",
     des:"Indo 25",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(26).jpg",
     des:"Indo 26",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(27).jpg",
     des:"Indo 27",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(28).jpg",
     des:"Indo 28",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(29).jpg",
     des:"Indo 29",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(30).jpg",
     des:"Indo 30",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(31).jpg",
     des:"Indo 31",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(32).jpg",
     des:"Indo 32",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(33).jpg",
     des:"Indo 33",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(34).jpg",
     des:"Indo 34",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(35).jpg",
     des:"Indo 35",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(36).jpg",
     des:"Indo 36",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(37).jpg",
     des:"Indo 37",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(38).jpg",
     des:"Indo 38",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(39).jpg",
     des:"Indo 39",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(40).jpg",
     des:"Indo 40",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(41).jpg",
     des:"Indo 41",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(42).jpg",
     des:"Indo 42",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(43).jpg",
     des:"Indo 43",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(44).jpg",
     des:"Indo 44",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(44).jpg",
     des:"Indo 44",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(45).jpg",
     des:"Indo 45",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(46).jpg",
     des:"Indo 46",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(47).jpg",
     des:"Indo 47",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(48).jpg",
     des:"Indo 48",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(49).jpg",
     des:"Indo 49",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(50).jpg",
     des:"Indo 50",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(51).jpg",
     des:"Indo 51",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(52).jpg",
     des:"Indo 52",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(53).jpg",
     des:"Indo 53",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(54).jpg",
     des:"Indo 54",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(55).jpg",
     des:"Indo 55",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(56).jpg",
     des:"Indo 56",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(57).jpg",
     des:"Indo 57",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(58).jpg",
     des:"Indo 58",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(59).jpg",
     des:"Indo 59",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(60).jpg",
     des:"Indo 60",
-    price:"Rs.500"
+   
 },
 {
     image:"Indo Western Designs/indo(61).jpg",
     des:"Indo 61",
-    price:"Rs.500"
+   
 },
 
 ]
@@ -361,7 +361,6 @@ function createDesignsBox(indos) {
     box.innerHTML = `
       <img class="designss" src="${indos.image}" alt="">
       <h3 class="title">${indos.des}</h3>
-      <h5 class="price">${indos.price}</h5>
     `;
     for (let i = 0; i <indo.length; i++) {
         box.addEventListener('click',(dets)=>{
