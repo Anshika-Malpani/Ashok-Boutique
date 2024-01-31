@@ -115,8 +115,6 @@ else{
        fixed.forEach(function(elements,index){
         if(i==index){
             var image=e.getAttribute("data-image")
-            console.log(image)
-            console.log(elements)
             elements.src=image;
             // elements.style.backgroundImage=`url(${image})`
         }
